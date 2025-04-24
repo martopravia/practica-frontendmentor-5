@@ -1,0 +1,146 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(30, 54%, 90%);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.bigBox {
+  width: 45rem;
+  height: auto;
+  background-color: hsl(0, 0%, 100%);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 2.7rem;
+  border-radius: 1rem;
+}
+
+.image img {
+  width: 100%;
+  border-radius: 0.7rem;
+}
+
+.title {
+  font-family: "Young Serif", sans-serif;
+  font-weight: 400;
+}
+
+.firstText {
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  margin-top: -5px;
+  font-size: 16px;
+  color: hsl(30, 10%, 34%);
+}
+
+.redContainer {
+  background-color: hsl(330, 100%, 98%);
+  width: 100%;
+  border-radius: 0.7rem;
+  padding-left: 15px;
+}
+
+.titlePrep {
+  color: hsl(332, 51%, 32%);
+  font-family: "Young Serif", sans-serif;
+  font-weight: 400;
+}
+
+.firstList li {
+  margin-left: -10px;
+  line-height: 2rem;
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: hsl(30, 10%, 34%);
+}
+
+.firstList li::marker {
+  color: hsl(332, 51%, 32%);
+}
+
+.titleIng {
+  color: hsl(14, 45%, 36%);
+  font-family: "Young Serif", sans-serif;
+  font-weight: 400;
+}
+
+.secondList li {
+  margin-left: -17px;
+  line-height: 2rem;
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: hsl(30, 10%, 34%);
+}
+
+hr {
+  width: 100%;
+  color: hsl(30, 10%, 34%);
+}
+
+.titleInst {
+  color: hsl(14, 45%, 36%);
+  font-family: "Young Serif", sans-serif;
+  font-weight: 400;
+}
+
+.thirdList li {
+  margin-left: -17px;
+  line-height: 1.8rem;
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: hsl(30, 10%, 34%);
+}
+
+.thirdList li::marker {
+  color: hsl(14, 45%, 36%);
+}
+
+ul li,
+ol li {
+  list-style-position: outside;
+  padding-left: 0.5rem;
+}
+
+.titleNutri {
+  color: hsl(14, 45%, 36%);
+  font-family: "Young Serif", sans-serif;
+  font-weight: 400;
+}
+
+.nutri {
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: hsl(30, 10%, 34%);
+}
+
+.grid {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.calories .carbs .prote .fat {
+  display: block;
+  width: 100%;
+}
+
+.calories1 .carbs1 .prote1 .fat1 {
+  display: block;
+  width: 50%;
+}
+
+.calories2 .carbs2 .prote2 .fat2 {
+  display: block;
+  width: 50%;
+}
