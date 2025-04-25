@@ -118,29 +118,33 @@ ol li {
   font-weight: 400;
 }
 
-.nutri {
+.nutrition {
+  width: 100%;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  line-height: 3rem;
   font-family: "Outfit", sans-serif;
   font-weight: 400;
   font-size: 16px;
   color: hsl(30, 10%, 34%);
 }
 
-.grid {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+.label {
+  text-align: left;
+  padding-left: 30px;
 }
-.calories .carbs .prote .fat {
-  display: block;
+
+.value {
+  text-align: right;
+  padding-right: 100%;
+  color: hsl(14, 45%, 36%);
+  font-weight: bold;
+}
+
+.nutriHr {
   width: 100%;
-}
-
-.calories1 .carbs1 .prote1 .fat1 {
-  display: block;
-  width: 50%;
-}
-
-.calories2 .carbs2 .prote2 .fat2 {
-  display: block;
-  width: 50%;
+  color: hsl(30, 10%, 34%);
 }
